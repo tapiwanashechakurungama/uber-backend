@@ -10,7 +10,6 @@ const Main = () => {
       style={{ backgroundImage: `url(${Bak})` }}
     >
       <div className="w-full max-w-[576px] bg-white shadow-lg rounded-lg p-6 md:p-10 space-y-6">
-        {/* Navigation Tabs */}
         <div className="flex justify-between border-b-4 border-black pb-4">
           <div className="w-1/3 text-center flex flex-col items-center gap-2 cursor-pointer hover:text-gray-700">
             <MdDriveEta className="text-4xl" />
@@ -26,7 +25,6 @@ const Main = () => {
           </div>
         </div>
         
-        {/* Main Content */}
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl font-bold leading-tight">
             Get in the driver’s seat and get paid
